@@ -1,11 +1,18 @@
 <script setup>
 import OrixaCard from './OrixaCard.vue'
-//import List from './components/List.vue'
+import OrixaList from './OrixaList.vue'
 </script>
 
 <template>
-  <OrixaCard />
-  <!--List /-->
+  <div class="wiki">
+    <OrixaCard />
+    <OrixaList />
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.wiki {
+  display: flex;
+  gap: 30px;
+}
+</style>

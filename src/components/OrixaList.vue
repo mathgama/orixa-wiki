@@ -1,7 +1,7 @@
 <template>
   <nav class="list">
     <ul>
-      <li>
+      <li class="active">
         <img src="../assets/img/obaluae_icon.png" alt="Obaluaê" />
         <span>Obaluaê</span>
       </li>
@@ -50,6 +50,10 @@
 
 .list li:hover {
   transform: scale(1.05);
+}
+
+.list .active {
+  background-color: #669afa;
 }
 
 .list span {

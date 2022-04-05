@@ -15,4 +15,10 @@ import OrixaList from './OrixaList.vue'
   display: flex;
   gap: 30px;
 }
+
+@media (max-width: 768px) {
+  .wiki {
+    flex-direction: column;
+  }
+}
 </style>

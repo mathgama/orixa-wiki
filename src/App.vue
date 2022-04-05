@@ -11,10 +11,6 @@ import OrixaWiki from './components/OrixaWiki.vue'
 <style>
 @import './assets/base.css';
 
-body {
-  background-color: #dadfe8;
-}
-
 #app {
   max-width: 800px;
   margin: 0 auto;
@@ -23,10 +19,9 @@ body {
   font-weight: normal;
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
+body {
+  background-color: #dadfe8;
+  display: flex;
+  place-items: center;
 }
 </style>

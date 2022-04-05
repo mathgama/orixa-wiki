@@ -27,6 +27,7 @@
   font-size: 1.5em;
   font-weight: bold;
   color: #000;
+  border-bottom: 1px solid #000;
 }
 
 .attributes {

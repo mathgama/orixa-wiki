@@ -29,6 +29,9 @@
 .list ul {
   padding: 0;
   list-style-type: none;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .list li {
@@ -42,10 +45,10 @@
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
   box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
-  min-width: 190px;
+  max-width: 200px;
   min-height: 70px;
-  margin-bottom: 10px;
   transition: 0.15s ease-in-out;
+  flex-grow: 1;
 }
 
 .list li:hover {
@@ -58,5 +61,19 @@
 
 .list span {
   padding-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .list {
+    max-width: 400px;
+  }
+
+  .list li {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 0px;
+  }
 }
 </style>

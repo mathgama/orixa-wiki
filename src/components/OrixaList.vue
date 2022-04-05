@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav class="list">
     <ul>
       <li>
         <img src="../assets/img/obaluae_icon.png" alt="Obaluaê" />
@@ -22,16 +22,16 @@
 </template>
 
 <style scoped>
-nav {
+.list {
   max-width: 240px;
 }
 
-ul {
+.list ul {
   padding: 0;
   list-style-type: none;
 }
 
-li {
+.list li {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -45,9 +45,14 @@ li {
   min-width: 190px;
   min-height: 70px;
   margin-bottom: 10px;
+  transition: 0.15s ease-in-out;
 }
 
-span {
+.list li:hover {
+  transform: scale(1.05);
+}
+
+.list span {
   padding-right: 20px;
 }
 </style>

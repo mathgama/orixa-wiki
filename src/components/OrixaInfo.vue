@@ -16,22 +16,6 @@
 </template>
 
 <style scoped>
-h1 {
-  font-size: 1.5em;
-  font-weight: bold;
-  color: #000;
-}
-
-ul {
-  margin-top: 10px;
-  list-style-type: none;
-  padding: 0px;
-}
-
-li > b {
-  font-weight: bold;
-}
-
 .name {
   top: -20px;
   padding: 10px 30px;
@@ -39,9 +23,25 @@ li > b {
   border-radius: 20px 20px 0px 0px;
 }
 
+.name h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #000;
+}
+
 .attributes {
   top: -20px;
   width: 400px;
   padding: 0px 30px;
+}
+
+.attributes ul {
+  margin-top: 10px;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.attributes li > b {
+  font-weight: bold;
 }
 </style>

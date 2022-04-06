@@ -72,6 +72,8 @@
 <style scoped>
 .list {
   max-width: 240px;
+  max-height: 84vh;
+  overflow-y: scroll;
 }
 
 .list ul {

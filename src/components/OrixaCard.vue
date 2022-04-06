@@ -16,5 +16,6 @@ import OrixaInfo from './OrixaInfo.vue'
   border-radius: 20px;
   box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
   overflow: hidden;
+  max-height: 760px;
 }
 </style>

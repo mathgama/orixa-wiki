@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Ewá",
+    "image": "/src/assets/img/ewa.jpg",
+    "icon": "/src/assets/img/ewa_icon.png"
+  },
+  {
+    "id": 2,
+    "name": "Exu",
+    "image": "/src/assets/img/exu.jpg",
+    "icon": "/src/assets/img/exu_icon.png"
+  },
+  {
+    "id": 3,
+    "name": "Iansã",
+    "image": "/src/assets/img/iansa.jpg",
+    "icon": "/src/assets/img/iansa_icon.png"
+  },
+  {
+    "id": 4,
+    "name": "Ibeji",
+    "image": "/src/assets/img/ibeji.jpg",
+    "icon": "/src/assets/img/ibeji_icon.png"
+  },
+  {
+    "id": 5,
+    "name": "Iemanjá",
+    "image": "/src/assets/img/iemanja.jpg",
+    "icon": "/src/assets/img/iemanja_icon.png"
+  },
+  {
+    "id": 6,
+    "name": "Logunedé",
+    "image": "/src/assets/img/logunede.jpg",
+    "icon": "/src/assets/img/logunede_icon.png"
+  },
+  {
+    "id": 7,
+    "name": "Nanã Buruquê",
+    "image": "/src/assets/img/nana.jpg",
+    "icon": "/src/assets/img/nana_icon.png"
+  },
+  {
+    "id": 8,
+    "name": "Obá",
+    "image": "/src/assets/img/oba.jpg",
+    "icon": "/src/assets/img/oba_icon.png"
+  },
+  {
+    "id": 9,
+    "name": "Obaluaê",
+    "image": "/src/assets/img/obaluae.jpg",
+    "icon": "/src/assets/img/obaluae_icon.png"
+  },
+  {
+    "id": 10,
+    "name": "Ogum",
+    "image": "/src/assets/img/ogum.jpg",
+    "icon": "/src/assets/img/ogum_icon.png"
+  },
+  {
+    "id": 11,
+    "name": "Ossaim",
+    "image": "/src/assets/img/ossaim.jpg",
+    "icon": "/src/assets/img/ossaim_icon.png"
+  },
+  {
+    "id": 12,
+    "name": "Oxalá",
+    "image": "/src/assets/img/oxala.jpg",
+    "icon": "/src/assets/img/oxala_icon.png"
+  },
+  {
+    "id": 13,
+    "name": "Oxossi",
+    "image": "/src/assets/img/oxossi.jpg",
+    "icon": "/src/assets/img/oxossi_icon.png"
+  },
+  {
+    "id": 14,
+    "name": "Oxum",
+    "image": "/src/assets/img/oxum.jpg",
+    "icon": "/src/assets/img/oxum_icon.png"
+  },
+  {
+    "id": 15,
+    "name": "Oxumaré",
+    "image": "/src/assets/img/oxumare.jpg",
+    "icon": "/src/assets/img/oxumare_icon.png"
+  },
+  {
+    "id": 16,
+    "name": "Xango",
+    "image": "/src/assets/img/xango.jpg",
+    "icon": "/src/assets/img/xango_icon.png"
+  }
+]

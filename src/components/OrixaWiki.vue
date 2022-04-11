@@ -1,11 +1,27 @@
 <script setup>
 import OrixaCard from './OrixaCard.vue'
 import OrixaList from './OrixaList.vue'
+
+import orixasData from '../data.json'
+</script>
+
+<script>
+export default {
+  data() {
+    return {
+      selected: null
+    }
+  },
+
+  created() {
+    if (!this.selected) this.selected = orixasData[0]
+  }
+}
 </script>
 
 <template>
   <div class="wiki">
-    <OrixaCard />
+    <OrixaCard :name="selected.name" :image="selected.image" />
     <OrixaList />
   </div>
 </template>

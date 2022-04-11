@@ -1,8 +1,12 @@
-<script setup></script>
+<script>
+export default {
+  props: ['name']
+}
+</script>
 
 <template>
   <div class="name">
-    <h1>Obaluaê</h1>
+    <h1>{{ this.name }}</h1>
   </div>
   <div class="attributes">
     <p>Senhor da cura, da evolução e da passagem.</p>

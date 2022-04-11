@@ -3,10 +3,16 @@ import OrixaAvatar from './OrixaAvatar.vue'
 import OrixaInfo from './OrixaInfo.vue'
 </script>
 
+<script>
+export default {
+  props: ['name', 'image']
+}
+</script>
+
 <template>
   <div class="card">
-    <OrixaAvatar />
-    <OrixaInfo />
+    <OrixaAvatar :image="image" />
+    <OrixaInfo :name="name" />
   </div>
 </template>
 

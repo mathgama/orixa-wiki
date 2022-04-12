@@ -15,6 +15,12 @@ export default {
 
   created() {
     if (!this.selected) this.selected = orixasData[0]
+  },
+
+  methods: {
+    selectOrixa(selectedId) {
+      this.selected = orixasData.filter((el) => el.id == selectedId)[0]
+    }
   }
 }
 </script>
@@ -22,7 +28,7 @@ export default {
 <template>
   <div class="wiki">
     <OrixaCard :name="selected.name" :image="selected.image" />
-    <OrixaList />
+    <OrixaList :selectedId="selected.id" @selectOrixa="selectOrixa" />
   </div>
 </template>
 

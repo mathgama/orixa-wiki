@@ -2,6 +2,8 @@
 import orixasData from '../data.json'
 
 export default {
+  props: ['selectedId'],
+
   data() {
     return {
       orixas: orixasData
@@ -13,7 +15,12 @@ export default {
 <template>
   <nav class="list">
     <ul>
-      <li v-for="orixa in orixas" :key="orixa.id">
+      <li
+        v-for="orixa in orixas"
+        :key="orixa.id"
+        :class="orixa.id == selectedId ? 'active' : ''"
+        @click="$emit('selectOrixa', orixa.id)"
+      >
         <img :src="orixa.icon" :alt="orixa.name" />
         <span>{{ orixa.name }}</span>
       </li>

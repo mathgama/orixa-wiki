@@ -2,97 +2,209 @@
   {
     "id": 1,
     "name": "Ewá",
+    "description": "Senhora das possibilidades.",
     "image": "/src/assets/img/ewa.jpg",
-    "icon": "/src/assets/img/ewa_icon.png"
+    "icon": "/src/assets/img/ewa_icon.png",
+    "attributes": [
+      { "name": "Saudação", "value": "Rirrô!" },
+      { "name": "Sincretismo", "value": "Santa Filomena, Santa Clara" },
+      { "name": "Símbolos", "value": "Ejô (serpente), arpão, ofá e alfanje" },
+      { "name": "Elemento", "value": "Os cinco elementos" }
+    ]
   },
   {
     "id": 2,
     "name": "Exu",
+    "description": "Faz a guerra para trazer a paz, mensageiro divino dos oráculos.",
     "image": "/src/assets/img/exu.jpg",
-    "icon": "/src/assets/img/exu_icon.png"
+    "icon": "/src/assets/img/exu_icon.png",
+    "attributes": [
+      { "name": "Saudação", "value": "Laroyê Exu, Exu é Mojubá!" },
+      { "name": "Sincretismo", "value": "Santo António de Lisboa" },
+      { "name": "Símbolos", "value": "Tridente e Ogó" },
+      { "name": "Elemento", "value": "Fogo" }
+    ]
   },
   {
     "id": 3,
     "name": "Iansã",
+    "description": "Orixá do tempo, passado presente e futuro.",
     "image": "/src/assets/img/iansa.jpg",
-    "icon": "/src/assets/img/iansa_icon.png"
+    "icon": "/src/assets/img/iansa_icon.png",
+    "attributes": [
+      { "name": "Saudação", "value": "Olha o Tempo, minha mãe!" },
+      { "name": "Sincretismo", "value": "Santa Bárbara" },
+      { "name": "Símbolos", "value": "Iruexin (chicote), alfanje" },
+      { "name": "Elemento", "value": "Fogo" }
+    ]
   },
   {
     "id": 4,
     "name": "Ibeji",
+    "description": "Pureza, leveza, alegria e doçura.",
     "image": "/src/assets/img/ibeji.jpg",
-    "icon": "/src/assets/img/ibeji_icon.png"
+    "icon": "/src/assets/img/ibeji_icon.png",
+    "attributes": [
+      { "name": "Saudação", "value": "Salve a Ibejada!" },
+      { "name": "Sincretismo", "value": "São Cosme e Damião" },
+      { "name": "Símbolos", "value": "Gêmeos, duas cabaças-gêmeas" },
+      { "name": "Elemento", "value": "Ar" }
+    ]
   },
   {
     "id": 5,
     "name": "Iemanjá",
+    "description": "É a deusa dos grandes rios, mares e oceanos.",
     "image": "/src/assets/img/iemanja.jpg",
-    "icon": "/src/assets/img/iemanja_icon.png"
+    "icon": "/src/assets/img/iemanja_icon.png",
+    "attributes": [
+      { "name": "Saudação", "value": "Odoyá Yemanjá! Adoci-yaba!" },
+      { "name": "Sincretismo", "value": "Virgem Maria, N.S. de Fátima" },
+      { "name": "Símbolos", "value": "Abebé prateado (Espelho em forma de Peixe), lua, peixes" },
+      { "name": "Elemento", "value": "Água" }
+    ]
   },
   {
     "id": 6,
     "name": "Logunedé",
+    "description": "Orixá da riqueza e da fartura.",
     "image": "/src/assets/img/logunede.jpg",
-    "icon": "/src/assets/img/logunede_icon.png"
+    "icon": "/src/assets/img/logunede_icon.png",
+    "attributes": [
+      { "name": "Saudação", "value": "Loci, loci, logun!" },
+      { "name": "Sincretismo", "value": "São Expedito" },
+      { "name": "Símbolos", "value": "Ofá (arco e flecha) e Abebé (espelho)" },
+      { "name": "Elemento", "value": "Terra e água" }
+    ]
   },
   {
     "id": 7,
     "name": "Nanã Buruquê",
+    "description": "Senhora das águas paradas, do barro e da sabedoria.",
     "image": "/src/assets/img/nana.jpg",
-    "icon": "/src/assets/img/nana_icon.png"
+    "icon": "/src/assets/img/nana_icon.png",
+    "attributes": [
+      { "name": "Saudação", "value": "Saluba, Nanã!" },
+      { "name": "Sincretismo", "value": "Santa Ana" },
+      { "name": "Símbolos", "value": "Ibiri (objeto nos braços)" },
+      { "name": "Elemento", "value": "Terra e água (lama)" }
+    ]
   },
   {
     "id": 8,
     "name": "Obá",
+    "description": "Orixá que aquieta o racional dos seres e esgota o conhecimento desvirtuado.",
     "image": "/src/assets/img/oba.jpg",
-    "icon": "/src/assets/img/oba_icon.png"
+    "icon": "/src/assets/img/oba_icon.png",
+    "attributes": [
+      { "name": "Saudação", "value": "Akirô Oba Yê!" },
+      { "name": "Sincretismo", "value": "Santa Joana D’Arc" },
+      { "name": "Símbolos", "value": "Alfanje e Escudo, lança" },
+      { "name": "Elemento", "value": "Fogo" }
+    ]
   },
   {
     "id": 9,
     "name": "Obaluaê",
+    "description": "Senhor da cura, da evolução e da passagem.",
     "image": "/src/assets/img/obaluae.jpg",
-    "icon": "/src/assets/img/obaluae_icon.png"
+    "icon": "/src/assets/img/obaluae_icon.png",
+    "attributes": [
+      { "name": "Saudação", "value": "Atotô, meu Pai!" },
+      { "name": "Sincretismo", "value": "São Roque e São Lázaro" },
+      { "name": "Símbolos", "value": "Xaxará e filá" },
+      { "name": "Elemento", "value": "Terra" }
+    ]
   },
   {
     "id": 10,
     "name": "Ogum",
+    "description": "Orixá do ferro, fogo e tecnologia. Ogum é o orixá guerreiro capaz de abrir caminhos na vida.",
     "image": "/src/assets/img/ogum.jpg",
-    "icon": "/src/assets/img/ogum_icon.png"
+    "icon": "/src/assets/img/ogum_icon.png",
+    "attributes": [
+      { "name": "Saudação", "value": "Ogunhê, Patacuri Ogun!" },
+      { "name": "Sincretismo", "value": "São Jorge" },
+      { "name": "Símbolos", "value": "Espadas e peças de Ferro" },
+      { "name": "Elemento", "value": "Fogo" }
+    ]
   },
   {
     "id": 11,
     "name": "Ossaim",
+    "description": "Divindade protetora dos animais.",
     "image": "/src/assets/img/ossaim.jpg",
-    "icon": "/src/assets/img/ossaim_icon.png"
+    "icon": "/src/assets/img/ossaim_icon.png",
+    "attributes": [
+      { "name": "Saudação", "value": "Eu Eu Ewasá!" },
+      { "name": "Sincretismo", "value": "São Benedito" },
+      { "name": "Símbolos", "value": "Haste metálica de sete pontas, com ave no centro" },
+      { "name": "Elemento", "value": "Terra (plantas, arvores, vegetais)" }
+    ]
   },
   {
     "id": 12,
     "name": "Oxalá",
+    "description": "Senhor da compaixão, do perdão, da sapiência e da fé.",
     "image": "/src/assets/img/oxala.jpg",
-    "icon": "/src/assets/img/oxala_icon.png"
+    "icon": "/src/assets/img/oxala_icon.png",
+    "attributes": [
+      { "name": "Saudação", "value": "Epá Babá!" },
+      { "name": "Sincretismo", "value": "Jesus Cristo" },
+      { "name": "Símbolos", "value": "Opaxorô (objeto nos braços)" },
+      { "name": "Elemento", "value": "Ar" }
+    ]
   },
   {
     "id": 13,
     "name": "Oxossi",
+    "description": "Orixá da caça e da fartura. Senhor das matas, da verdade e do conhecimento.",
     "image": "/src/assets/img/oxossi.jpg",
-    "icon": "/src/assets/img/oxossi_icon.png"
+    "icon": "/src/assets/img/oxossi_icon.png",
+    "attributes": [
+      { "name": "Saudação", "value": "Okê Arô!" },
+      { "name": "Sincretismo", "value": "São Sebastião" },
+      { "name": "Símbolos", "value": "Ofá (arco e flecha)" },
+      { "name": "Elemento", "value": "Terra" }
+    ]
   },
   {
     "id": 14,
     "name": "Oxum",
+    "description": "Orixá do amor puro e verdadeiro, da alegria e da união. Senhora da águas doces e das cachoeiras.",
     "image": "/src/assets/img/oxum.jpg",
-    "icon": "/src/assets/img/oxum_icon.png"
+    "icon": "/src/assets/img/oxum_icon.png",
+    "attributes": [
+      { "name": "Saudação", "value": "Ora Yê iê, ô!" },
+      { "name": "Sincretismo", "value": "Nossa Senhora da Conceição" },
+      { "name": "Símbolos", "value": "Abebé dourado (espelho de latão)" },
+      { "name": "Elemento", "value": "Água" }
+    ]
   },
   {
     "id": 15,
     "name": "Oxumaré",
+    "description": "Orixá da chuva e do arco-íris, o Dono das Cobras. Dilui e renova os sentimentos doentios e viciados.",
     "image": "/src/assets/img/oxumare.jpg",
-    "icon": "/src/assets/img/oxumare_icon.png"
+    "icon": "/src/assets/img/oxumare_icon.png",
+    "attributes": [
+      { "name": "Saudação", "value": "Arrôboboi!" },
+      { "name": "Sincretismo", "value": "São Bartolomeu" },
+      { "name": "Símbolos", "value": "Arco-Íris e cobra de metal" },
+      { "name": "Elemento", "value": "Ar e fogo" }
+    ]
   },
   {
     "id": 16,
-    "name": "Xango",
+    "name": "Xangô",
+    "description": "Deus do trovão e da justiça.",
     "image": "/src/assets/img/xango.jpg",
-    "icon": "/src/assets/img/xango_icon.png"
+    "icon": "/src/assets/img/xango_icon.png",
+    "attributes": [
+      { "name": "Saudação", "value": "Kâo Kabicilê!" },
+      { "name": "Sincretismo", "value": "São Jerônimo, São Pedro, São João" },
+      { "name": "Símbolos", "value": "Oxé (machado duplo), relâmpago, balança e pedras vulcânicas" },
+      { "name": "Elemento", "value": "Fogo (raio)" }
+    ]
   }
 ]

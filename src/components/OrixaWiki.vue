@@ -27,7 +27,7 @@ export default {
 
 <template>
   <div class="wiki">
-    <OrixaCard :name="selected.name" :image="selected.image" />
+    <OrixaCard :orixa="selected" />
     <OrixaList :selectedId="selected.id" @selectOrixa="selectOrixa" />
   </div>
 </template>

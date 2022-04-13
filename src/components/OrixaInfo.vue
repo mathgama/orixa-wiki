@@ -1,20 +1,19 @@
 <script>
 export default {
-  props: ['name']
+  props: ['orixa']
 }
 </script>
 
 <template>
   <div class="name">
-    <h1>{{ this.name }}</h1>
+    <h1>{{ orixa.name }}</h1>
   </div>
   <div class="attributes">
-    <p>Senhor da cura, da evolução e da passagem.</p>
+    <p>{{ orixa.description }}</p>
     <ul>
-      <li><b>Saudação</b> – Atotô</li>
-      <li><b>Sincretismo</b> – São Roque e São Lázaro</li>
-      <li><b>Símbolos</b> – Xaxará e filá</li>
-      <li><b>Elemento</b> – Terra</li>
+      <li v-for="(attribute, index) in orixa.attributes" :key="index">
+        <b>{{ attribute.name }}</b> – {{ attribute.value }}
+      </li>
     </ul>
   </div>
 </template>

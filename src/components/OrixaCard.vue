@@ -5,14 +5,14 @@ import OrixaInfo from './OrixaInfo.vue'
 
 <script>
 export default {
-  props: ['name', 'image']
+  props: ['orixa']
 }
 </script>
 
 <template>
   <div class="card">
-    <OrixaAvatar :image="image" />
-    <OrixaInfo :name="name" />
+    <OrixaAvatar :image="orixa.image" />
+    <OrixaInfo :orixa="orixa" />
   </div>
 </template>
 
@@ -22,8 +22,8 @@ export default {
   border-radius: 20px;
   box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
   overflow: hidden;
-  height: 745px;
-  max-height: 760px;
+  height: 770px;
+  max-height: 770px;
   min-width: 400px;
 }
 </style>

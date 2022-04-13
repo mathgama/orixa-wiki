@@ -51,7 +51,7 @@ export default {
   color: #fff;
   cursor: pointer;
   box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
-  min-height: 80px;
+  min-height: 83px;
   transition: 0.15s ease-in-out;
   flex-grow: 1;
 
@@ -72,8 +72,9 @@ export default {
 }
 
 .list span {
-  padding-right: 20px;
+  padding-right: 10px;
   text-align: end;
+  font-size: 15px;
 }
 
 @media (max-width: 768px) {

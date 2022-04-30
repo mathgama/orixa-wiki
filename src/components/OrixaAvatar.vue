@@ -7,7 +7,7 @@ export default {
 <template>
   <div
     class="avatar"
-    v-bind:style="{ backgroundImage: 'url(' + image + ')' }"
+    v-bind:style="{ backgroundImage: 'url(/assets/img/' + image + ')' }"
   ></div>
 </template>
 

@@ -21,7 +21,7 @@ export default {
         :class="orixa.id == selectedId ? 'active' : ''"
         @click="$emit('selectOrixa', orixa.id)"
       >
-        <img :src="orixa.icon" :alt="orixa.name" />
+        <img :src="`/assets/img/${orixa.icon}`" :alt="orixa.name" />
         <span>{{ orixa.name }}</span>
       </li>
     </ul>

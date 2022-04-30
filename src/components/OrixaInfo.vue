@@ -37,6 +37,7 @@ export default {
   top: -20px;
   width: 400px;
   padding: 0px 30px;
+  color: #000;
 }
 
 .attributes ul {
